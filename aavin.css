@@ -1,0 +1,272 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 2px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    /* color:  rgba(7, 42, 108, 0.856); */
+}
+
+.top-nav {
+    display: flex;
+    padding: 10px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.589);
+    font-size: small;
+}
+
+.top-nav-1 {
+    display: flex;
+    gap: 30px;
+    padding-left: 25px;
+}
+
+.tamil {
+    color: red;
+}
+
+.top-nav-2 {
+    display: flex;
+    gap: 10px;
+    padding-left: 45%;
+}
+
+.logo {
+    display: flex;
+}
+
+.cm {
+    height: 250px;
+    width: 130px;
+    padding-left: 55px;
+    padding-top: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.cm-con {
+    font-size: 12px;
+    display: inline-block;
+}
+
+.minister {
+    height: 250px;
+    width: 200px;
+    padding-left: 55px;
+    padding-top: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.main-logo {
+    display: inline-block;
+    padding-left: 200px;
+    margin-left: 20px;
+    margin-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: -100px;
+    font-size: smaller;
+}
+
+.main-logo-text {
+    margin-top: 15px;
+}
+
+.nav-2 {
+    height: 50px;
+    background-color: rgba(7, 42, 108, 0.856);
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.home,
+.Aboutus,
+.federation,
+.unions,
+.milk,
+.services,
+.tenders,
+.careers,
+.contact,
+.login,
+.downloads {
+    padding: 0px;
+    padding-top: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.home:hover {
+    background-color: rgb(7, 42, 108);
+    cursor: pointer;
+}
+
+.Aboutus:hover {
+    background-color: rgb(7, 42, 108);
+    cursor: pointer;
+}
+
+.federation:hover {
+    background-color: rgb(7, 42, 108);
+    cursor: pointer;
+}
+
+.unions:hover {
+    background-color: rgb(7, 42, 108);
+    cursor: pointer;
+}
+
+.milk:hover {
+    background-color: rgb(7, 42, 108);
+    cursor: pointer;
+}
+
+.services:hover {
+    background-color: rgb(7, 42, 108);
+    cursor: pointer;
+}
+
+.tenders:hover {
+    background-color: rgb(7, 42, 108);
+    cursor: pointer;
+}
+
+.careers:hover {
+    background-color: rgb(7, 42, 108);
+    cursor: pointer;
+}
+
+.contact:hover {
+    background-color: rgb(7, 42, 108);
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: rgb(7, 42, 108);
+    cursor: pointer;
+}
+
+.downloads:hover {
+    background-color: rgb(7, 42, 108);
+    cursor: pointer;
+}
+
+.marqee {
+    margin: 7px;
+    margin-left: 17px;
+    display: flex;
+}
+
+.marqee-content {
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.news {
+    background-color: rgb(2, 76, 2);
+    color: white;
+    width: 120px;
+    height: 27px;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 7px;
+    margin-right: 10px;
+}
+
+.list-title {
+    background-color: rgb(7, 42, 108);
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.list1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 17px;
+    width: 100%;
+}
+
+.item1 {
+    display: inline-block;
+    width: 200px;
+    height: 215px;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 3px;
+}
+
+.list-text {
+    background-color: palevioletred;
+    color: white;
+    margin-top: -4px;
+}
+.list2{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 3%;
+}
+.list2-1{
+    text-align: center;
+}
+.footer{
+    background-color:rgb(2, 26, 71) ;
+    color: white;
+    height: 280px;
+    width: 100%;
+    display: flex;
+
+}
+.footer-address{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.Address{
+    font-weight: 400;
+}
+.Address1{
+    font-size: 14px;
+    line-height: 25px;
+    padding-top: 15px;
+}
+.footer-center{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;text-align: center;
+}
+.footer-center img{
+    padding-left: 75px;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.imp{
+    font-weight: 400;
+}
+.footer-links ul{
+    padding-left: 17px;
+    padding-top: 10px;
+}
+.footer-left{
+    padding-top: 100px;
+    display: flex;
+    font-size: 14px;
+}
+.footer-right{
+    padding-top: 95px;
+    padding-left: 275px;
+}
